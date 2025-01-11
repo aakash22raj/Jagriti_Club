@@ -1,0 +1,80 @@
+.about{
+    padding-top: 70px;
+    display: flex;
+    gap: 5rem;
+}
+.about_club{
+    animation: fadeIn 3s;
+}
+.about_img img{
+    height: 19rem;
+    width: 30rem;
+    border-radius: 20px;
+}
+.about_club h2{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.about_club p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(82, 80, 80);
+}
+
+.about_club button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: rgb(22, 2, 124);
+    font-size: max(1vw,13px);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 7rem;
+}
+
+.about_club button:hover{
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .about{
+        display: grid;
+    }
+    .about_img img{
+        margin-top: -2rem;
+    }
+    .about_club h2{
+        margin-top: -4rem;
+    }
+    .about_club button{
+        padding: 1.5vw 3.5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_img img{
+        height: 15rem;
+        width: 25rem;
+        margin-top: -2rem; 
+    }
+    .about_club button{
+        padding: 2vw 4.3vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_img img{
+        height: 10rem;
+        width: 15rem;
+        margin-top: -2rem; 
+    }
+    .about_club button{
+        padding: 3vw 5.5vw;
+    }
+}

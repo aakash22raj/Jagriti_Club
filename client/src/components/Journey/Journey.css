@@ -1,0 +1,131 @@
+.journey{
+    padding-top: 5rem;
+}
+.journey_name{
+    text-align: center;
+    font-size: 2.4rem;
+    padding-bottom: 4rem;
+    background-image: linear-gradient(43deg, #011784 30%, #c850c0 46%, #ffcc70 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.story{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.the_story h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: rgb(22, 2, 124);
+    text-decoration: underline dashed;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 6px; 
+    text-decoration-color: rgb(93, 67, 223);
+}
+.the_story p{
+    font-size: 1.2rem;
+    font-weight: 350;
+    line-height: 1.5;
+    color: rgb(76, 75, 74);
+}
+.story_img img{
+    height: 22rem;
+}
+
+
+
+
+.journey_start{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+
+.journey_1, .journey_2, .journey_3, .journey_4{
+    /* background-color: rgb(91, 81, 202);  */
+    padding: 1.5rem; 
+    border-radius: 0.5rem; 
+    transition: all 0.3s ease;
+}
+.journey_1:hover {
+    transform: scale(1.1);
+}
+.journey_2:hover {
+    transform: scale(1.1);
+}
+.journey_3:hover {
+    transform: scale(1.1);
+}
+.journey_4:hover {
+    transform: scale(1.1);
+}
+
+.journey_1{
+    background-color: #cdd4f8;
+}
+.journey_2{
+    background-color: #fddde4;
+}
+.journey_3{
+    background-color: #cdeddc;
+}
+.journey_4{
+    background-color: #f7cef7;
+}
+
+.journey_1 p, .journey_2 p, .journey_3 p, .journey_4 p{
+    padding-top: 15px;
+}
+
+.journey_1 h4, .journey_2 h4, .journey_3 h4, .journey_4 h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .story{
+        display: grid;
+        justify-items: center;
+        gap: 2rem;  
+        grid-template-columns: 1fr;
+    }
+    .the_story{
+        order: 2; 
+    }
+    .story_img img{
+        order: 1;
+        height: 20rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .journey_start {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .story_img img{
+        height: 12rem;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    .story_img img{
+        height: 10rem;
+    }
+}

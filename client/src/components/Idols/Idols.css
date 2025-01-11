@@ -1,0 +1,147 @@
+.idol{
+    padding-top: 40px;
+}
+
+.idol h2{
+    font-weight: 700;
+    font-size: 2.2rem;
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fadeIn 1s ease-out;
+}
+
+
+.loops{
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.loops:hover .idol_section{
+    animation-play-state: paused;
+}
+
+
+.idol_section{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+    padding-top: 20px;
+    gap: 20px;
+    animation: fadeIn 1.5s ease-out;
+    animation: 20s slide infinite linear;
+}
+
+
+.idol_section::-webkit-scrollbar{
+    display: none;
+}
+
+.idol_box{    
+    text-align: center;
+    padding: 15px 30px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    opacity: 0;
+    animation: fadeInBox 1s ease-out forwards;
+}
+
+.idol_box:hover{
+    box-shadow: 10px 10px 54px rgba(18, 9, 172, 0.1);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.idol_box img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.idol_box:hover img {
+    transform: scale(1.1);
+}
+
+.idol_box h6{
+    display: inline-block;
+    padding: 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #d1e8f2;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.idol_box:nth-child(2) h6{ 
+    background-color: #fddde4;
+}
+.idol_box:nth-child(3) h6{
+    background-color: #cdeddc;
+}
+.idol_box:nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+.idol_box:nth-child(5) h6{
+    background-color: #f6dbf6;
+}
+.idol_box:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+
+
+
+
+.idol_box:nth-child(7) h6{
+    background-color: #d1e8f2;
+}
+.idol_box:nth-child(8) h6{
+    background-color: #fddde4;
+}
+.idol_box:nth-child(9) h6{
+    background-color: #cdeddc;
+}
+.idol_box:nth-child(10) h6{
+    background-color: #cdd4f8;
+}
+.idol_box:nth-child(11) h6{
+    background-color: #f6dbf6;
+}
+.idol_box:nth-child(12) h6{
+    background-color: #fff2e5;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fadeInBox {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+

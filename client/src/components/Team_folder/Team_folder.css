@@ -1,0 +1,76 @@
+.team_folder{
+    padding-top: 3rem;
+}
+
+.team_folder hr{
+    margin: 10px 0px;
+    height: 2px;
+    background: linear-gradient( 43deg, #2844ce 0%, #ffcc70 46%, #c523ed 90%);
+    border: none;
+}
+
+.team_title h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e2a2a;
+}
+
+
+.team_fol_card{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    overflow: scroll;
+}
+
+.team_fol_card::-webkit-scrollbar{
+    display: none;
+}
+
+.team_card{
+    min-width: 240px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin-top: 20px;
+    transition: 0.2s ease;
+    position: relative;
+    place-items: center;
+}
+
+.team_card:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.team_card img{
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+    margin-top: -4.5rem;
+}
+.team_card h5{
+    text-align: start;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.team_card h6{
+    color: rgb(55, 54, 54);
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.team_card p{
+    text-align: start;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(21, 52, 167);
+}

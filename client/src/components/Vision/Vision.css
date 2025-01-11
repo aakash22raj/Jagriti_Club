@@ -1,0 +1,130 @@
+.vission{
+    display: flex;
+    padding-top: 4rem;
+    gap: 3rem;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.mission_p{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(77, 77, 77);
+    padding: 8px 8px 8px 8px;
+    line-height: .5;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #d1e8f2;
+}
+
+
+.vission h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #010178;
+    opacity: 0;
+    animation: slideIn 1s forwards 0.5s;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.our_m{
+    display: flex;
+    gap: 1rem;
+    padding-top: 15px;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(85, 85, 85);
+}
+
+
+.info h3{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0;
+    animation: fadeInText 1s forwards 0.8s;
+}
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.icon{
+    padding-top: 5px;
+    
+}
+
+.icon i{
+    padding: 4px 6px 4px 6px;
+    font-size: 17px;
+    line-height: 1;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #d1e8f2;
+    transition: all 0.3s ease;
+}
+.icon:hover i {
+    transform: scale(1.2);
+    background-color: #a0c8f0; 
+}
+
+
+@keyframes iconColorChange {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width:900px){
+    .vission{
+        display: grid;
+    }
+}

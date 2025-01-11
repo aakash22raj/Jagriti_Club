@@ -1,0 +1,246 @@
+.alumni_folder{
+    padding-top: 3rem;
+}
+
+.alumni_folder hr{
+    margin: 10px 0px;
+    height: 2px;
+    /* background-color: #928e8e; */
+    background: linear-gradient( 43deg, #2844ce 0%, #ffcc70 46%, #c523ed 90%);
+    border: none;
+}
+
+.alumni_title h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e2a2a;
+}
+
+
+.alumni_fol_card{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    /* justify-content: space-between; */
+    align-items: center;
+    overflow: scroll;
+}
+
+.alumni_fol_card::-webkit-scrollbar{
+    display: none;
+}
+
+.alumni_card{
+    min-width: 240px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin-top: 20px;
+    transition: 0.2s ease;
+    position: relative;
+    place-items: center;
+}
+
+.alumni_card:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.alumni_card img{
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+    margin-top: -0.01rem;
+}
+.alumni_card h5{
+    text-align: start;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.alumni_card p{
+    text-align: start;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(25, 11, 153);
+}
+
+
+
+
+
+/* Modal styling */
+.modal_alumni {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .alumni_modal_content {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px 30px 40px 30px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    text-align: center;
+    animation: popup-slide-in 0.3s ease-in-out;
+  }
+
+  /* .alumni_modal_content hr{
+    height: .5px;
+    border: none;
+    background: linear-gradient( 43deg, #2844ce 0%, #ffcc70 46%, #c523ed 90%);
+  } */
+
+  .alumni_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #000;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .alumni_close:hover {
+    background-color: #949cf4;
+  }
+
+.alumni_model{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
+    column-gap: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.alumni_model img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    border: 3px solid rgb(32, 30, 30);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alumni_details{
+    padding-top: 30px;
+}
+
+.alumni_details h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.alumni_details h5 {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.alumni_details p{
+    font-size: 13px;
+}
+
+.alumani_icon{
+    display: flex;
+    /* padding-top: .2rem; */
+    margin-top: 10px;
+    gap: 1rem;
+    font-size: 18px;
+    color: rgb(99, 98, 98);
+}
+.alumani_icon a {
+    color: #555;
+    transition: color 0.3s;
+}
+.alumani_icon a:hover{
+    color: black;
+}
+
+.alumni_des {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+
+@keyframes popup-slide-in {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .alumni_card{
+        min-width: 260px;
+    }
+
+    .alumni_card img{
+        height: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .alumni_model{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alumni_model img {
+        /* margin-bottom: 20px; */
+    }
+
+    .alumni_details h3{
+        margin-top: -1rem;
+    }
+
+    .alumni_details {
+        text-align: center;
+    }
+
+    .alumani_icon{
+        justify-content: center;
+    }
+
+    .alumni_des {
+        text-align: center;
+    }
+}

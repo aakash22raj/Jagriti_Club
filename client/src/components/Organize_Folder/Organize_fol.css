@@ -1,0 +1,147 @@
+.organize_fol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-top: 5rem;
+}
+
+
+.form-container, .payment {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 40px 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+.payment-section h3{
+  padding-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.submit-button, .payment-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-button {
+    background-color: #28a745;
+}
+
+.payment-button:hover {
+    background-color: #218838;
+}
+
+/* Payment */
+
+.payment-section {
+    text-align: center;
+}
+
+.barcode{
+    border: solid 1px black;
+    padding: 15px;
+    margin: 5px auto;
+    display: inline-block;
+}
+
+.upi-section {
+    margin-top: 20px;
+}
+
+.upi-section input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.payment-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .organize_fol {
+      padding-top: 50px;
+      justify-content: center;
+    }
+  
+    .form-container, .payment {
+      /* padding: 15px; */
+    }
+  
+    .form-group input,
+    .form-group select {
+      font-size: 13px;
+      padding: 8px;
+    }
+  
+    .submit-button, .payment-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .barcode {
+      width: 180px;
+      height: auto;
+      padding: 15px;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    .upi-section input {
+      width: 100%; /* Stack input and button on small screens */
+      margin-bottom: 10px;
+    }
+  
+    .upi-section button {
+      width: 100%;
+    }
+}

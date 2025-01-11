@@ -1,0 +1,211 @@
+.join{
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.join_img {
+    order: 1;
+}
+
+.join_club {
+    order: 2; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.join_club h2{
+    font-size: 2.5rem;
+    margin-top: -5rem;
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.join_club p{
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: rgb(82, 80, 80);
+}
+
+.join_img img{
+    height: 16rem;
+    width: 25rem;
+    border-radius: 20px;
+}
+
+.join_club button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.5vw;
+    background-color: rgb(22, 2, 124);
+    font-size: max(1vw,13px);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.join_club button:hover{
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    color: white;
+}
+
+
+
+
+.services__model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+
+
+.services__model-content{
+    width: 450px;
+    position: relative;
+    background-color: white;
+    padding: 3rem 3rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.services__model-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.services__model-title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.active-model{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+.contact__form-div{
+    position: relative;
+    margin-bottom: 1rem;
+    height: 3rem;
+    color: black;
+}
+
+.contact__form-input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    z-index: 1;
+}
+.contact__form-tag{
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0.25rem;
+    background-color: white;
+    z-index: 10;
+}
+.contact__form-area{
+    height: 5rem;
+}
+
+.contact__form-area textarea{
+    resize: none;
+}
+
+.button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: .9vw 1.3vw;
+    background-color: rgb(22, 2, 124);
+    font-size: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-image: linear-gradient(43deg, #011784 0%, #c850c0 46%, #ffcc70 90%);
+    color: white; 
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .button{
+        padding: 1.5vw 3.5vw;
+    }
+    .join{
+        display: grid;
+    }
+    .join_img img{
+        margin-top: -5rem;
+    }
+    .join_club h2{
+        margin-top: -5rem;
+    }
+    .join_club button{
+        padding: 1.5vw 3.5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .button{
+        padding: 2vw 4.3vw;
+    }
+    .join_img img{
+        height: 15rem;
+        width: 25rem;
+        margin-top: -4rem; 
+    }
+    .join_club button{
+        padding: 2vw 4.3vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .button{
+        padding: 3vw 5.5vw;
+    }
+    .join_img img{
+        height: 100%;
+        width: 17rem;
+        margin-top: -6rem; 
+    }
+    .about_club button{
+        padding: 3vw 5.5vw;
+    }
+}
