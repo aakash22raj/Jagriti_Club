@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo_name} alt="" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex commodi nam, totam asperiores tempore magnam eligendi rem. Aspernatur suscipit possimus mollitia, corrupti facilis magnam eos, cupiditate optio obcaecati, facere perspiciatis?</p>
+                <p>Welcome to Jagriti Club, where passion meets purpose! Join us in making a real difference by teaching young minds, spreading awareness, and organizing impactful events. Be a part of a community that inspires change and empowers society!</p>
                 <div className='footer-social-icons'>
                     <i><GrInstagram /></i>
                     <i><FiTwitter /></i>
@@ -33,15 +33,15 @@ const Footer = () => {
                     <Link to='/about' onClick={()=>setMenu("about")}><li>About us</li></Link>
                     <Link to='/gallery' onClick={()=>setMenu("gallery")}><li>Gallery</li></Link>
                     <Link to='/event' onClick={()=>setMenu("event")}><li>Event</li></Link>
-                    <Link to='/' onClick={()=>setMenu("home")}><li>Alumni</li></Link>
-                    <Link to='/sponser' onClick={()=>setMenu("sponser")}><li>Sponser</li></Link>
+                    <Link to='/alumni' onClick={()=>setMenu("home")}><li>Alumni</li></Link>
+                    <Link to='/organize' onClick={()=>setMenu("sponser")}><li>Sponser</li></Link>
                 </ul>
             </div>
             <div className="footer-content-right">
                 <h2>GET IN TOUCH</h2>
                 <ul>
-                    <li>+1-212-456-7890</li>
-                    <li>contact@jagriticlub.in</li>
+                    <li>+91-930-559-5064</li>
+                    <li>jagriticlub@recb.ac.in</li>
                 </ul>
                 <button>Admin Panel</button>
             </div>

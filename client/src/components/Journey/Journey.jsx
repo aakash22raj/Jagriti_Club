@@ -29,23 +29,23 @@ const Journey = () => {
 
         <div className='journey_start'>
             <div className='journey_1'>
-                <h4>2017: The Seed is Planted</h4>
+                <h4>The Seed is Planted</h4>
                 <p>Founded by a group of passionate students, our club took its first steps towards promoting society diversity on campus.</p>
             </div>
 
             <div className='journey_2'>
-                <h4>2019: Visited multiple schools</h4>
+                <h4>Visited multiple schools</h4>
                 <p>Visited schools to raise awareness about society, organizing events like plantation drives, blood donation, Shramdaan, and many others. </p>
             </div>
 
             <div className='journey_3'>
-                <h4>2017: Follow idol of our ideals</h4>
+                <h4>Follow idol of our ideals</h4>
                 <p>We follow the ideals of our idols, embracing digital advancements while never forgetting their sacrifices and contributions.</p>
             </div>
 
             <div className='journey_4'>
-                <h4>2017: The Seed is Planted</h4>
-                <p>FFounded by a group of passionate students, our club took its first steps towards promoting cultural diversity on campus.</p>
+                <h4>Empowering Through Workshops</h4>
+                <p>Conducted workshops and seminars to educate students and communities on social responsibility and sustainable living practices.</p>
             </div>
         </div>
 
