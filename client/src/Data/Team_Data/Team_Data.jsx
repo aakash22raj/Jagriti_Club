@@ -1,4 +1,6 @@
 import { all_team } from "../../assets/team_img/all_team/all_team";
+import { final } from "../../assets/team_img/all_team/final-year/final-year";
+import { third } from "../../assets/team_img/all_team/3rd-year/3rd-year";
 
 
 
@@ -6,7 +8,7 @@ export const Team_Data = [
     {
         id: 1,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Vineet Kumar",
         Branch: "Civil Engineering",
         Position: "President",
@@ -21,7 +23,7 @@ export const Team_Data = [
     {
         id: 2,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Sumanshi Roy",
         Branch: "Information Technology",
         Position: "Vice President",
@@ -36,7 +38,7 @@ export const Team_Data = [
     {
         id: 3,
         year: "4th",
-        image: all_team.man6,
+        image: final.kanojiya,
         name: "Rishabh Kannaujiya",
         Branch: "Information Technology",
         Position: "Secretary",
@@ -51,7 +53,7 @@ export const Team_Data = [
     {
         id: 4,
         year: "4th",
-        image: all_team.man6,
+        image: final.annapurana,
         name: "Annapurna Tripathi",
         Branch: "Information Technology",
         Position: "Vice Secretary",
@@ -66,7 +68,7 @@ export const Team_Data = [
     {
         id: 5,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Akash Kumar Raj",
         Branch: "Information Technology",
         Position: "Treasurer",
@@ -78,25 +80,25 @@ export const Team_Data = [
             // facebook: "https://linkedin.com/in/aakash22raj"
         },
     },
-    {
-        id: 5,
-        year: "4th",
-        image: all_team.man6,
-        name: "Ritu Singh",
-        Branch: "Information Technology",
-        Position: "Vice Treasurer",
-        social_links: {
-            instagram: "https://instagram.com/akashraj",
-            github: "https://github.com/akashraj",
-            linkedin: "https://linkedin.com/in/akashraj",
-            youtube: "https://linkedin.com/in/akashraj",
-            facebook: "https://linkedin.com/in/akashraj"
-        },
-    },
+    // {
+    //     id: 5,
+    //     year: "4th",
+    //     image: final.man6,
+    //     name: "Ritu Singh",
+    //     Branch: "Information Technology",
+    //     Position: "Vice Treasurer",
+    //     social_links: {
+    //         instagram: "https://instagram.com/akashraj",
+    //         github: "https://github.com/akashraj",
+    //         linkedin: "https://linkedin.com/in/akashraj",
+    //         youtube: "https://linkedin.com/in/akashraj",
+    //         facebook: "https://linkedin.com/in/akashraj"
+    //     },
+    // },
     {
         id: 7,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Vishal Kumar",
         Branch: "Electrical Engineering",
         Position: "Event Management Team Lead",
@@ -111,7 +113,7 @@ export const Team_Data = [
     {
         id: 8,
         year: "4th",
-        image: all_team.man6,
+        image: final.prachi,
         name: "Prachi Chaudhary",
         Branch: "Electrical Engineering",
         Position: "Event Management Team Co-Lead",
@@ -126,7 +128,7 @@ export const Team_Data = [
     {
         id: 9,
         year: "4th",
-        image: all_team.man6,
+        image: final.shani,
         name: "Shani Maurya",
         Branch: "Civil Engineering",
         Position: "Technical Team Lead",
@@ -141,7 +143,7 @@ export const Team_Data = [
     {
         id: 10,
         year: "4th",
-        image: all_team.man6,
+        image: final.ayushi,
         name: "Ayushi Devi",
         Branch: "Civil Engineering",
         Position: "Technical Team Co-Lead",
@@ -156,7 +158,7 @@ export const Team_Data = [
     {
         id: 11,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Shashank Kumar",
         Branch: "Information Technology",
         Position: "Media Handler Team Lead",
@@ -171,7 +173,7 @@ export const Team_Data = [
     {
         id: 12,
         year: "4th",
-        image: all_team.man6,
+        image: final.nisha,
         name: "Nisha Rani",
         Branch: "Electrical Engineering",
         Position: "Media Handler Team Co-Lead",
@@ -186,7 +188,7 @@ export const Team_Data = [
     {
         id: 13,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Aman Kumar",
         Branch: "Civil Engineering",
         Position: "Creative Team Lead",
@@ -201,7 +203,7 @@ export const Team_Data = [
     {
         id: 14,
         year: "4th",
-        image: all_team.man6,
+        image: final.jaya,
         name: "Jaya Kumari",
         Branch: "Information Technology",
         Position: "Creative Team Co-Lead",
@@ -216,7 +218,7 @@ export const Team_Data = [
     {
         id: 15,
         year: "4th",
-        image: all_team.man6,
+        image: final.nitya,
         name: "Nityanand Yadav",
         Branch: "Civil Engineering",
         Position: "Content Creation Team Lead",
@@ -231,7 +233,7 @@ export const Team_Data = [
     {
         id: 16,
         year: "4th",
-        image: all_team.man6,
+        image: final.user,
         name: "Abhishek Verma",
         Branch: "Civil Engineering",
         Position: "Content Creation Team Co-Lead",
@@ -255,7 +257,7 @@ export const Team_Data = [
     {
         id: 1,
         year: "3rd",
-        image: all_team.man6,
+        image: third.aaditya,
         name: "Aaditya Katariya",
         Branch: "Electrical Engineering",
         Position: "Volunteering & Membership Board Lead",
@@ -270,7 +272,7 @@ export const Team_Data = [
     {
         id: 2,
         year: "3rd",
-        image: all_team.man6,
+        image: third.esha,
         name: "Esha Singh",
         Branch: "Information Technology",
         Position: "Volunteering & Membership Board Co-Lead",
@@ -285,7 +287,7 @@ export const Team_Data = [
     {
         id: 3,
         year: "3rd",
-        image: all_team.man6,
+        image: third.pawan,
         name: "Pawan Patel",
         Branch: "Information Technology",
         Position: "Volunteering & Membership Board Executive",
@@ -300,7 +302,7 @@ export const Team_Data = [
     {
         id: 4,
         year: "3rd",
-        image: all_team.man6,
+        image: third.ghanjeet,
         name: "Ghanjeet Singh",
         Branch: "Electrical Engineering",
         Position: "Finance & Fundraising Board Lead",
@@ -315,7 +317,7 @@ export const Team_Data = [
     {
         id: 5,
         year: "3rd",
-        image: all_team.man6,
+        image: third.chirag,
         name: "Chirag Gupta",
         Branch: "Information Technology",
         Position: "Finance & Fundraising Board Co-Lead",
@@ -330,7 +332,7 @@ export const Team_Data = [
     {
         id: 6,
         year: "3rd",
-        image: all_team.man6,
+        image: third.aditya,
         name: "Aditya Gautam",
         Branch: "Information Technology",
         Position: "Finance & Fundraising Board Executive",
@@ -345,7 +347,7 @@ export const Team_Data = [
     {
         id: 7,
         year: "3rd",
-        image: all_team.man6,
+        image: third.shikha,
         name: "Shikha Rajvanshi",
         Branch: "Information Technology",
         Position: "Cultural & Entertainment Board Lead",
@@ -360,7 +362,7 @@ export const Team_Data = [
     {
         id: 8,
         year: "3rd",
-        image: all_team.man6,
+        image: third.rahul,
         name: "Rahul Kumar",
         Branch: "Electrical Engineering",
         Position: "Cultural & Entertainment Board Co-Lead",
@@ -375,7 +377,7 @@ export const Team_Data = [
     {
         id: 9,
         year: "3rd",
-        image: all_team.man6,
+        image: third.aditya_kumar,
         name: "Aditya Azad",
         Branch: "Civil Engineering",
         Position: "Cultural & Entertainment Board Executive",
@@ -390,7 +392,7 @@ export const Team_Data = [
     {
         id: 10,
         year: "3rd",
-        image: all_team.man6,
+        image: third.user,
         name: "Shahzan Mansoori",
         Branch: "Electrical Engineering",
         Position: "Marketing & Public Relations Board Lead",
@@ -405,7 +407,7 @@ export const Team_Data = [
     {
         id: 11,
         year: "3rd",
-        image: all_team.man6,
+        image: third.harsh,
         name: "Harsh Poswal",
         Branch: "Electrical Engineering",
         Position: "Marketing & Public Relations Board Executive",
@@ -420,7 +422,7 @@ export const Team_Data = [
     {
         id: 12,
         year: "3rd",
-        image: all_team.man6,
+        image: third.yashwant,
         name: "Yashwant Singh",
         Branch: "Information Technology",
         Position: "Event Planning Board Executive",
@@ -435,7 +437,7 @@ export const Team_Data = [
     {
         id: 13,
         year: "3rd",
-        image: all_team.man6,
+        image: third.jatin,
         name: "Jatin Kumar",
         Branch: "Information Technology",
         Position: "Technical Team Board Lead",
@@ -450,7 +452,7 @@ export const Team_Data = [
     {
         id: 14,
         year: "3rd",
-        image: all_team.man6,
+        image: third.nikhil,
         name: "Nikhil Kumar",
         Branch: "Information Technology",
         Position: "Technical Team Board Co-Lead",
@@ -465,7 +467,7 @@ export const Team_Data = [
     {
         id: 15,
         year: "3rd",
-        image: all_team.man6,
+        image: third.himanshu,
         name: "Himanshu Gautam",
         Branch: "Information Technology",
         Position: "Technical Team Board Executive",
@@ -480,7 +482,7 @@ export const Team_Data = [
     {
         id: 16,
         year: "3rd",
-        image: all_team.man6,
+        image: third.kapil,
         name: "Kapil Kumar",
         Branch: "Information Technology",
         Position: "Creative Team Board Lead",
@@ -495,7 +497,7 @@ export const Team_Data = [
     {
         id: 17,
         year: "3rd",
-        image: all_team.man6,
+        image: third.neha,
         name: "Neha Singh",
         Branch: "Information Technology",
         Position: "Creative Team Board Co-Lead",
@@ -510,7 +512,7 @@ export const Team_Data = [
     {
         id: 18,
         year: "3rd",
-        image: all_team.man6,
+        image: third.alice,
         name: "Alice Singh",
         Branch: "Civil Engineering",
         Position: "Creative Team Board Executive",
@@ -525,7 +527,7 @@ export const Team_Data = [
     {
         id: 19,
         year: "3rd",
-        image: all_team.man6,
+        image: third.om,
         name: "Om Jee",
         Branch: "Information Technology",
         Position: "Team Awaaz Lead",
@@ -540,7 +542,7 @@ export const Team_Data = [
     {
         id: 20,
         year: "3rd",
-        image: all_team.man6,
+        image: third.user,
         name: "Juli singh",
         Branch: "Information Technology",
         Position: "Team Awaaz Co-Lead",
@@ -555,7 +557,7 @@ export const Team_Data = [
     {
         id: 21,
         year: "3rd",
-        image: all_team.man6,
+        image: third.prerna,
         name: "Prerna Pal",
         Branch: "Information Technology",
         Position: "Anchoring Team Lead",
@@ -570,7 +572,7 @@ export const Team_Data = [
     {
         id: 22,
         year: "3rd",
-        image: all_team.man6,
+        image: third.user,
         name: "Ashwani Kumar",
         Branch: "Information Technology",
         Position: "Anchoring Team Co-Lead",
@@ -585,7 +587,7 @@ export const Team_Data = [
     {
         id: 23,
         year: "3rd",
-        image: all_team.man6,
+        image: third.abhishek,
         name: "Abhishek Yadav",
         Branch: "Information Technology",
         Position: "Content Creation Team Board Lead",
@@ -600,7 +602,7 @@ export const Team_Data = [
     {
         id: 24,
         year: "3rd",
-        image: all_team.man6,
+        image: third.navaneet,
         name: "Navneet Singh",
         Branch: "Information Technology",
         Position: "Content Creation Team Board Co-Lead",
@@ -615,7 +617,7 @@ export const Team_Data = [
     {
         id: 25,
         year: "3rd",
-        image: all_team.man6,
+        image: third.user,
         name: "Arastu Sagar",
         Branch: "Electrical Engineering",
         Position: "Content Creation Team Board Executive",
@@ -630,7 +632,7 @@ export const Team_Data = [
     {
         id: 26,
         year: "3rd",
-        image: all_team.man6,
+        image: third.ashish,
         name: "Ashish Kumar",
         Branch: "Electrical Engineering",
         Position: "Youth Convenor Lead",
@@ -645,7 +647,7 @@ export const Team_Data = [
     {
         id: 27,
         year: "3rd",
-        image: all_team.man6,
+        image: third.nishant,
         name: "Nishant",
         Branch: "Electrical Engineering",
         Position: "Youth Convenor Co-Lead",
@@ -660,7 +662,7 @@ export const Team_Data = [
     {
         id: 28,
         year: "3rd",
-        image: all_team.man6,
+        image: third.goldi,
         name: "Goldi",
         Branch: "Electrical Engineering",
         Position: "Youth Convenor",
@@ -675,7 +677,7 @@ export const Team_Data = [
     {
         id: 29,
         year: "3rd",
-        image: all_team.man6,
+        image: third.user,
         name: "Abhishek Patel",
         Branch: "Information Technology",
         Position: "Youth Convenor",
@@ -690,7 +692,7 @@ export const Team_Data = [
     {
         id: 30,
         year: "3rd",
-        image: all_team.man6,
+        image: third.saurav,
         name: "Sourav Kumar",
         Branch: "Information Technology",
         Position: "Youth Convenor",
@@ -705,7 +707,7 @@ export const Team_Data = [
     {
         id: 31,
         year: "3rd",
-        image: all_team.man6,
+        image: third.shalini,
         name: "Shalini",
         Branch: "Information Technology",
         Position: "Youth Convenor",
@@ -729,73 +731,223 @@ export const Team_Data = [
         id: 1,
         year: "2nd",
         image: all_team.man6,
-        name: "Ghanjeet Singh",
+        name: "Anchal",
         Branch: "Information Technology",
-        Position: "President",
+        Position: "Volunteer",
         social_links: {
-            instagram: "https://instagram.com/akashraj",
-            github: "https://github.com/akashraj",
-            linkedin: "https://linkedin.com/in/akashraj",
-            youtube: "https://linkedin.com/in/akashraj",
-            facebook: "https://linkedin.com/in/akashraj"
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "https://linkedin.com/in/",
+            facebook: "https://linkedin.com/in/"
         },
     },
     {
         id: 2,
         year: "2nd",
         image: all_team.man6,
-        name: "Akash Kumar Raj",
+        name: "Ashish Kumar",
         Branch: "Information Technology",
-        Position: "President",
+        Position: "Volunteer",
         social_links: {
             instagram: "",
-            github: "https://github.com/akashraj",
-            linkedin: "https://linkedin.com/in/akashraj",
-            youtube: "https://linkedin.com/in/akashraj",
-            facebook: "https://linkedin.com/in/akashraj"
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "https://linkedin.com/in/",
+            facebook: "https://linkedin.com/in/"
         },
     },
     {
         id: 3,
         year: "2nd",
         image: all_team.man6,
-        name: "Akash Kumar Raj",
+        name: "Ayushi Patel",
         Branch: "Information Technology",
-        Position: "President",
+        Position: "Volunteer",
         social_links: {
-            instagram: "https://instagram.com/akashraj",
+            instagram: "https://instagram.com/",
             github: "",
-            linkedin: "https://linkedin.com/in/akashraj",
-            youtube: "https://linkedin.com/in/akashraj",
-            facebook: "https://linkedin.com/in/akashraj"
+            linkedin: "https://linkedin.com/in/",
+            youtube: "https://linkedin.com/in/",
+            facebook: "https://linkedin.com/in/"
         },
     },
     {
         id: 4,
         year: "2nd",
         image: all_team.man6,
-        name: "Akash Kumar Raj",
+        name: "Diksha Gupta",
         Branch: "Information Technology",
-        Position: "President",
+        Position: "Volunteer",
         social_links: {
-            instagram: "https://instagram.com/akashraj",
-            github: "https://github.com/akashraj",
-            linkedin: "https://linkedin.com/in/akashraj",
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
             youtube: "",
-            facebook: "https://linkedin.com/in/akashraj"
+            facebook: "https://linkedin.com/in/"
         },
     },
     {
         id: 5,
         year: "2nd",
         image: all_team.man6,
-        name: "Akash Kumar Raj",
+        name: "Harsh Kumar",
         Branch: "Information Technology",
-        Position: "President",
+        Position: "Volunteer",
         social_links: {
-            instagram: "https://instagram.com/akashraj",
-            github: "https://github.com/akashraj",
-            linkedin: "https://linkedin.com/in/akashraj",
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 6,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Kartik Kumar",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 7,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Lalit Kumar",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 8,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Mridul Gupta",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 9,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Nikhil Kumar",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 10,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Pankaj Kumar Verma",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 11,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Prashant Sharma",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 12,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Priya Gupta",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 13,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Priyanshu Kumar",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 14,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Rakesh Verma",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
+            youtube: "",
+            facebook: ""
+        },
+    },
+    {
+        id: 15,
+        year: "2nd",
+        image: all_team.man6,
+        name: "Utkarsh Giri",
+        Branch: "Information Technology",
+        Position: "Volunteer",
+        social_links: {
+            instagram: "https://instagram.com/",
+            github: "https://github.com/",
+            linkedin: "https://linkedin.com/in/",
             youtube: "",
             facebook: ""
         },

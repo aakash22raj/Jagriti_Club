@@ -13,7 +13,7 @@ export const Data = [
     },
     {
         id: 2,
-        image: developer.user,
+        image: developer.user2,
         name: "Nikhil Kumar",
         position: "Frontend Developer",
         instagram: "",
