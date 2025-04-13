@@ -22,18 +22,27 @@ export const Data = [
     },
     {
         id: 3,
-        image: developer.user,
-        name: "Akash Kumar Raj",
-        position: "Full Developer",
+        image: developer.user3,
+        name: "Prerna Pal",
+        position: "Frontend Developer",
         instagram: "",
         github: "",
         linkedin: ""
     },
     {
         id: 4,
-        image: developer.user,
-        name: "Akash Kumar Raj",
-        position: "Full-stack Developer",
+        image: developer.user4,
+        name: "Jatin Kumar",
+        position: "Backend Developer",
+        instagram: "",
+        github: "",
+        linkedin: ""
+    },
+    {
+        id: 5,
+        image: developer.user5,
+        name: "Shikha Rajvanshi",
+        position: "Web Deginer",
         instagram: "",
         github: "",
         linkedin: ""

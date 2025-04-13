@@ -1,6 +1,7 @@
 import { all_team } from "../../assets/team_img/all_team/all_team";
 import { final } from "../../assets/team_img/all_team/final-year/final-year";
 import { third } from "../../assets/team_img/all_team/3rd-year/3rd-year";
+import { second } from "../../assets/team_img/all_team/2nd-year/2nd-year";
 
 
 
@@ -730,7 +731,7 @@ export const Team_Data = [
     {
         id: 1,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Anchal",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -745,7 +746,7 @@ export const Team_Data = [
     {
         id: 2,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Ashish Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -760,7 +761,7 @@ export const Team_Data = [
     {
         id: 3,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Ayushi Patel",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -775,7 +776,7 @@ export const Team_Data = [
     {
         id: 4,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Diksha Gupta",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -790,7 +791,7 @@ export const Team_Data = [
     {
         id: 5,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Harsh Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -805,7 +806,7 @@ export const Team_Data = [
     {
         id: 6,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Kartik Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -820,7 +821,7 @@ export const Team_Data = [
     {
         id: 7,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Lalit Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -835,7 +836,7 @@ export const Team_Data = [
     {
         id: 8,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Mridul Gupta",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -850,7 +851,7 @@ export const Team_Data = [
     {
         id: 9,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Nikhil Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -865,7 +866,7 @@ export const Team_Data = [
     {
         id: 10,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Pankaj Kumar Verma",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -880,7 +881,7 @@ export const Team_Data = [
     {
         id: 11,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Prashant Sharma",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -895,7 +896,7 @@ export const Team_Data = [
     {
         id: 12,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Priya Gupta",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -910,7 +911,7 @@ export const Team_Data = [
     {
         id: 13,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Priyanshu Kumar",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -925,7 +926,7 @@ export const Team_Data = [
     {
         id: 14,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Rakesh Verma",
         Branch: "Information Technology",
         Position: "Volunteer",
@@ -940,7 +941,7 @@ export const Team_Data = [
     {
         id: 15,
         year: "2nd",
-        image: all_team.man6,
+        image: second.user,
         name: "Utkarsh Giri",
         Branch: "Information Technology",
         Position: "Volunteer",

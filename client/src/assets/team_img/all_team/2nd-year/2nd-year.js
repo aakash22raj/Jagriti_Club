@@ -1,6 +1,6 @@
-import man6 from './man6.jpg'
+import user from './user.png'
 
 
 export const second = {
-    man6
+    user,
 }

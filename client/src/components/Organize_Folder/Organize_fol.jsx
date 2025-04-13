@@ -105,6 +105,7 @@ const Organize_fol = () => {
                       onChange={handleChange}
                       required
                     >
+                        <option value="Constitution Day">Foundation Day</option>
                         <option value="Constitution Day">Constitution Day</option>
                         <option value="26 January">26 January</option>
                         <option value="Bhim Jayanti">Bhim Jayanti</option>
