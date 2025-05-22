@@ -9,7 +9,7 @@ export const Team_Data = [
     {
         id: 1,
         year: "4th",
-        image: final.user,
+        image: final.vineet,
         name: "Vineet Kumar",
         Branch: "Civil Engineering",
         Position: "President",
@@ -24,7 +24,7 @@ export const Team_Data = [
     {
         id: 2,
         year: "4th",
-        image: final.user,
+        image: final.shumanshi,
         name: "Sumanshi Roy",
         Branch: "Information Technology",
         Position: "Vice President",
@@ -69,7 +69,7 @@ export const Team_Data = [
     {
         id: 5,
         year: "4th",
-        image: final.user,
+        image: final.akash,
         name: "Akash Kumar Raj",
         Branch: "Information Technology",
         Position: "Treasurer",

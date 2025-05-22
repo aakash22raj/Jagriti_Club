@@ -47,4 +47,13 @@ export const Data = [
         github: "",
         linkedin: ""
     },
+    {
+        id: 6,
+        image: developer.user6,
+        name: "Neha Singh",
+        position: "Front End Developer",
+        instagram: "",
+        github: "",
+        linkedin: ""
+    },
 ];

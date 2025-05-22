@@ -7,6 +7,9 @@ import nisha from './Nisha Rani.jpg'
 import nitya from './Nityanand yadav.jpg'
 import prachi from './Prachi Chaudhary.jpg'
 import shani from './Shani Maurya.jpg'
+import vineet from './Vineet.jpg'
+import shumanshi from './Shumashi.jpg'
+import akash from './user1.jpg'
 
 
 export const final = {
@@ -19,4 +22,7 @@ export const final = {
     nitya,
     prachi,
     shani,
+    vineet,
+    shumanshi,
+    akash,
 }
